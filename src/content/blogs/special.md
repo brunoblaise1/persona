@@ -4,8 +4,6 @@ published: Apr 1, 2023
 language: English
 ---
 
-# Special
-
 **300 points**
 
 AUTHOR: LT 'SYREAL' JONES

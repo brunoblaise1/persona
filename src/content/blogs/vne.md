@@ -4,8 +4,6 @@ published: Apr 1, 2023
 language: English
 ---
 
-# VNE
-
 **200 points**
 
 AUTHOR: JUNIAS BONOU

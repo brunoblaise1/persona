@@ -4,8 +4,6 @@ published: Apr 1, 2023
 language: English
 ---
 
-# Ready Gladiator 2
-
 **400 points**
 
 Description

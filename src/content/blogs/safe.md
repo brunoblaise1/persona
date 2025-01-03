@@ -4,7 +4,6 @@ published: Apr 1, 2023
 language: English
 ---
 
-# Safe Opener 2
 
 **100 points**
 

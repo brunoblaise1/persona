@@ -4,8 +4,6 @@ published: Apr 1, 2021
 language: English
 ---
 
-# PcapPoisoning
-
 **100 points**
 
 AUTHOR: MUBARAK MIKAIL

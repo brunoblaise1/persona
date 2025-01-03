@@ -4,8 +4,6 @@ published: Apr 1, 2023
 language: English
 ---
 
-# ReadMyCert
-
 AUTHOR: SUNDAY JACOB NWANYIM
 
 Description

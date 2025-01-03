@@ -4,8 +4,6 @@ published: Apr 1, 2023
 language: English
 ---
 
-# hijacking
-
 **200 points**
 
 AUTHOR: THEONESTE BYAGUTANGAZA

@@ -4,8 +4,6 @@ published: Apr 1, 2023
 language: English
 ---
 
-# useless
-
 **100 points**
 
 AUTHOR: LOIC SHEMA

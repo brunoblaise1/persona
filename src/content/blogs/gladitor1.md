@@ -4,8 +4,6 @@ published: Apr 1, 2023
 language: English
 ---
 
-# Ready Gladiator 1
-
 **200 points**
 
 Description

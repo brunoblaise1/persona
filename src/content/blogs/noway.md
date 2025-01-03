@@ -4,8 +4,6 @@ published: Apr 1, 2023
 language: English
 ---
 
-# No way out
-
 **200 points**
 
 AUTHOR: KRIS

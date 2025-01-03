@@ -4,8 +4,6 @@ published: Apr 1, 2023
 language: English
 ---
 
-## two-sum
-
 **100 points**
 
 Description

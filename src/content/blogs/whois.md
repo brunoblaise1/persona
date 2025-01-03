@@ -4,8 +4,6 @@ published: Apr 1, 2023
 language: English
 ---
 
-# who is it
-
 **100 points**
 
 AUTHOR: JUNIAS BONOU

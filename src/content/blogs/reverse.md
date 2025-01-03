@@ -4,7 +4,6 @@ published: Apr 1, 2023
 language: English
 ---
 
-# Reverse
 
 **100 points**
 

@@ -4,8 +4,6 @@ published: Apr 1, 2023
 language: English
 ---
 
-# money-ware
-
 **100 points**
 
 AUTHOR: JUNI19

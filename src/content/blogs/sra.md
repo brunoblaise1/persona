@@ -4,8 +4,6 @@ published: Apr 1, 2023
 language: English
 ---
 
-# SRA
-
 **400 points**
 
 AUTHOR: F0XTR0T

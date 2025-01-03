@@ -1,0 +1,21 @@
+---
+import {type CollectionEntry} from 'astro:content'
+
+type Props ={
+    blog: CollectionEntry<'blogs'>
+}
+
+const {blog} = Astro.props
+import Link from "../layouts/Link.astro";
+
+---
+
+
+<div class="p-2"> 
+   
+<Link href={`/blog/${blog.slug}`} >
+<div class="border-b-2 p-2"> <div class="hover:bg-orange-300 " >{blog.data.title}</div></div>
+   
+    </Link>
+</div>
+

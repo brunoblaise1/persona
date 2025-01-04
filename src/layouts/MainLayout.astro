@@ -10,8 +10,8 @@ import Link from "./Link.astro";
     <meta charset="UTF-8" />
     <Head />
   </head>
-  <body class="bg-orange-100 p-2 prose text-black">
-    <header class="border-b-2 w-full">
+  <body class="bg-orange-100 p-2 ">
+     <header class="border-b-2 w-full">
    
       <nav class="flex justify-between p-2 ">
            <Link href="/" > <div class="hover:text-yellow-800">Home </div></Link>
@@ -22,7 +22,10 @@ import Link from "./Link.astro";
        
       </nav>
     </header>
+    <div class="mx-auto w-full prose lg:prose-xl"> 
+   
     <slot />
+    </div>
   </body>
 </html>
 

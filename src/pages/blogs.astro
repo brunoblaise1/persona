@@ -1,21 +1,19 @@
 ---
-import {getCollection} from "astro:content"
+import { getCollection } from "astro:content";
 import Layout from "../layouts/MainLayout.astro";
-const blogs = await getCollection("blogs")
+const blogs = await getCollection("blogs");
 import BlogList from "../components/BlogList.astro";
-
 ---
 
-
 <Layout title="Blogs">
-    <div class="p-2">
-        <h1 class="font-bold mb-4">Blogs</h1>
-        <div class="prose">I write about anything really the bolgs are not sorted some of them dates back in 2021 and some of the recent 2024 and also this is very different from the posts, you see on the front page, this is me being me.</div>
+  <div class="p-2">
+    <h1 class="font-bold mb-4">Blogs</h1>
+    <div class="prose">
+      I write about anything really the blogs are not sorted some of them dates
+      back in 2021 and some of the recent 2024 you see on the front page, this
+      is me being me.
     </div>
-     
- {   blogs.map((blog)=> (
-    <BlogList blog={blog} />
-    ))
-    }
-   
-<Layout>    
+  </div>
+
+  {blogs.map((blog) => <BlogList blog={blog} />)}
+</Layout>

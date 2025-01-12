@@ -1,39 +1,35 @@
 ---
+import { getCollection, type CollectionEntry } from "astro:content";
+export const getStaticPaths = async () => {
+  const blogs = await getCollection("blogs");
+  const paths = blogs.map((blog) => {
+    return {
+      params: {
+        slug: blog.slug,
+      },
+      props: {
+        blog,
+      },
+    };
+  });
 
-import {getCollection, CollectionEntry} from "astro:content"
-export const getStaticPaths = async ()=> {
-    const blogs = await getCollection("blogs")
-    const paths = blogs.map(blog => {
-        return {
-            params: {
-                slug: blog.slug
-            },
-            props:{
-                blog
-            }
-        }
-    })
-
-    return paths
-}
- type Props ={
-        blog: CollectionEntry<"blogs">
-    }
-    const {blog} = Astro.props
-    const {Content} = await blog.render()
-    import Layout from "../../layouts/MainLayout.astro";
+  return paths;
+};
+type Props = {
+  blog: CollectionEntry<"blogs">;
+};
+const { blog } = Astro.props;
+const { Content } = await blog.render();
+import Layout from "../../layouts/MainLayout.astro";
 ---
 
-
-
 <Layout title={blog.data.title}>
-    <div class="p-2">
-        <h1 class="font-bold mb-4 ">{blog.data.title}</h1>
-        <div class="prose overflow-visible relative mb-20">
-             <Content/>
-        </div>
-       
+  <div class="p-2">
+    <h1 class="font-bold mb-4">{blog.data.title}</h1>
+    <div class="prose overflow-visible relative mb-20">
+      <Content />
     </div>
-  
-   
-<Layout>   
+  </div>
+
+  <Layout /></Layout
+>

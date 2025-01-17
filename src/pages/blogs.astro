@@ -6,14 +6,16 @@ import BlogList from "../components/BlogList.astro";
 ---
 
 <Layout title="Blogs">
-  <div class="p-2">
-    <h1 class="font-bold mb-4">Blogs</h1>
-    <div class="prose">
-      I write about anything really the blogs are not sorted some of them dates
-      back in 2021 and some of the recent 2024 you see on the front page, this
-      is me being me.
+  <div class="prose lg:prose-xl mx-auto">
+    <div class="p-2">
+      <h1 class="font-bold mb-4">Blogs</h1>
+      <div>
+        I write about anything really the blogs are not sorted some of them
+        dates back in 2021 and some of the recent 2024 you see on the front
+        page, this is me being me.
+      </div>
     </div>
-  </div>
 
-  {blogs.map((blog) => <BlogList blog={blog} />)}
+    {blogs.map((blog) => <BlogList blog={blog} />)}
+  </div>
 </Layout>

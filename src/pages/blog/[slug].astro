@@ -24,9 +24,9 @@ import Layout from "../../layouts/MainLayout.astro";
 ---
 
 <Layout title={blog.data.title}>
-  <div class="p-2">
+  <div class="p-2 prose lg:prose-xl mx-auto">
     <h1 class="font-bold mb-4">{blog.data.title}</h1>
-    <div class="prose overflow-visible relative mb-20">
+    <div class="prose lg:prose-xl overflow-visible relative mb-20 mx-auto">
       <Content />
     </div>
   </div>

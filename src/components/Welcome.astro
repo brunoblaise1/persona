@@ -2,158 +2,214 @@
 import Link from "../layouts/Link.astro";
 ---
 
-<div
-  class="flex p-4 ">
-  <div class="p-2">
-    <p class="text-center">Hi there! 👋</p>
-    <p>
-      Welcome to my personal website where i yap everything about tech and
-      things am working, My name is Blaise a high school student from Rwanda
-      just to let you on a secret this is my final year in high school.
-    </p>
-    <span class="text-yellow-800">Nice to meet you! </span>
-    <p>
-      I will be doing some many things here so here are the most important
-      things i need to take care of:
-    </p>
-    <ul class="text-zinc-600">
-      <li>&acE; Create side timeline about major events</li>
-      <li>&acE; Improve ui</li>
+<main class="my-7 flex gap-0 flex-grow">
+  <section
+    class="self-center m-5 max-w-[80ch] lg:w-7/12 md:w-8/12 sm:w-9/12 w-10/12 md:self-start md:mr-20">
+    <p class="text-4xl font-serif">Hi, I'm Blaise Bruno</p>
+    <br />
+    <p>What I'm working on:</p>
+    <ul class="list-disc pl-8 pt-1">
+      <li class="pb-2">
+        Organising
+        <a
+          href="https://hackeastafrica.org/"
+          class="bg-[#0827F5] text-white p-1">
+          HackEA</a
+        >
+        with some friends.
+      </li>
+      <li class="pb-2">
+        Solving identificaton problem in Africa
+        <a href="#" class="bg-[#0827F5] text-white p-1">Read here.</a>
+      </li>
+      <li class="pb-2">Learning Rust</li>
+      <li>Focusing on National Exams and applying to uni</li>
     </ul>
-    <p>
-      As you can tell am still working on the website make sure to check from
-      time to time for new updates
-    </p>
-
-   <div class="mt-2"> 
-    <span class="text-zinc-600 underline">Things I have worked(working on it)</span>
-      <p>
+    <li>
+      I write
+      <a href="/blogs" class="hover:bg-[#0827F5] hover:text-white">blogs.</a>
+    </li>
+    <br />
+    <p>What I did:</p>
+    <ul class="list-disc pl-8 pt-1">
+      <li>
         <Link href="https://kigalihacks.live">
-        <span class="text-yellow-800 underline">Kigali Hacks: Aug 17, 24</span>
+          <span class="bg-[#0827F5] text-white p-"
+            >Kigali Hacks: Aug 17, 24</span
+          >
         </Link>
-     The first ever largest high school hackathon in Rwanda by high schooler for high school, I was the lead organizer of this hackathon
-     - We got featured on two local news paper: 
-       <ul class="text-zinc-600">
-         <Link href="https://kigalihacks.live"> <li>Newtime</li></Link>
-      <Link href="https://kigalihacks.live"> <li>Igihe</li><Link>
+        The first ever largest high school hackathon in Rwanda by high schooler for
+        high school, I was the lead organizer of this hackathon - We got featured
+        on two local news paper:
+        <ul class="list-disc pl-8">
+          <Link
+            href="https://www.newtimes.co.rw/article/19383/news/featured/rwandan-youth-unleash-tech-talent-in-first-ever-high-school-hackathon">
+            <li>Newtime</li></Link
+          >
+          <Link
+            href="https://igihe.com/ikoranabuhanga/article/guverinoma-yizeye-umusaruro-muri-gahunda-zo-kwinjiza-ikoranabuhanga-mu-bato">
+            <li>Igihe</li><Link />
+          </Link>
+        </ul>
+      </li>
     </ul>
- 
-    </p>
-
-     <p>
-        <Link href="https://bktechouse.rw/">
-        <span class="text-yellow-800 underline">Interned: Aug 31, 23</span>
-        </Link>
-     This is the interesting one, I you are reading this I know you are a badass you always with stuff and that's what happened to me when I identified a huge volunability to this tech gaint(in my home country), and that's how i got interned there.
- 
-    </p>
-
+    <br />
+    <p>About me:</p>
+    <section>
+      <p>I wanna be great.</p>
+      <p class="pl-4">
+        Dreaming is free so, let me dream! Failure is not an option, I have so
+        many thing to work on I can't afford depression, anxiety all that good
+        stuff.
+      </p>
+      <p>
+        Mostly I enjoy playing Piano, Guitar, walking before the sunrise and I
+        am competitive as hell
+      </p>
+    </section>
+    <br />
+    <p class="text-4xl font-serif">Projects(coding)</p>
     <p>
-        <Link href="https://github.com/brunoblaise/ldk">
-        <span class="text-yellow-800 underline">Morncast: Nov, 22</span>
-        </Link>
-     Essentially this is the time I join Hack Club and started my first club at my first school and I had to move to other school as i was moving from ordinary level to advance level
+      Umm, Nothing much I might have to remove some however most og them can be
+      found on
+      <a
+        href="https://github.com/brunoblaise/"
+        class="bg-[#0827F5] text-white p-">
+        github</a
+      >
     </p>
-       <p>
-        <Link href="https://github.com/brunoblaise/ldk">
-        <span class="text-yellow-800 underline">Interned at Ironji: Feb, 21</span>
+    <br />
+    <ul class="list-disc pl-8 grid grid-cols-2 gap-4">
+      <li>
+        <Link href="https://github.com/Morncastk">
+          <span class="underline">Morncast: Nov, 22</span>
         </Link>
-     As helped implement the tracking feature of track driver by then I was using nestjs and graphql(the last time I used it a till)
-    </p>
-    <p>
-        <Link href="https://github.com/brunoblaise/ldk">
-        <span class="text-yellow-800 underline">Elearning: March 31, 20</span>
-        </Link>
-     After the covid hit i felt the urge of creating something that would allow us to conitnue to study, the project has been dead now but it's still ofthe project i am proud of
- 
-    </p>
+        Essentially this is the time I join Hack Club and started my first club at
+        School(still running)
+      </li>
 
+      <li>
+        <Link href="https://github.com/brunoblaise/ldk">
+          <span class="underline">Elearning: March 31, 20</span>
+        </Link>
+        It was in covid and I made a web app for us to continue to study
+      </li>
 
-    <p>
+      <li>
         <Link href="https://www.youtube.com/watch?v=E49cs3k61VE">
-        <span class="text-yellow-800 underline">Cartvido 100: Jan 31, 18</span>
+          <span class="underline">Cartvido 100: Jan 31, 18</span>
         </Link>
-  So sad that that  i lost access to my youtube channel due to strike of using using some copyrighted materials, am thinking of starting a new one. if you want to chek materials i used to put outside you can always check it
- 
-    </p>
-
-    
- </div>
- 
-    <div class="mt-2"> 
-    <span class="text-zinc-600 underline">Things I have working on(working on it)</span>
-             <p>
-        <Link href="https://shoely.blaisee.me">
-        <span class="text-yellow-800 underline">Shoely launching soon: Jan 31, 24</span>
+        So sad that that i lost access to my youtube channel
+      </li>
+    </ul>
+    <br />
+    <p class="text-4xl font-serif">Experience</p>
+    <br />
+    <ul class="list-disc pl-8 flex flex-col gap-4">
+      <li>
+        <Link href="https://github.com/brunoblaise/ldk">
+          <span class="underline"
+            >Special Activities Division Agent: Oct, 24</span
+          >
         </Link>
-    updates soon...
-    </p>
-    </div>
-     <div class="mt-2"> 
-    <span class="text-zinc-600 underline">Experience(working on it)</span>
-             <p>
-     
-    updates soon...
-    </p>
-    </div>
-  </div>
-  <div class="flex flex-col gap-4">
-    <Link href="https://x.com/MudacumuraB">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        class="lucide lucide-twitter hover:text-orange-400"
-        ><path
-          d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"
-        ></path></svg
-      >
-    </Link>
+        I organize online community building events for Hack Club.
+      </li>
+      <li>
+        <Link href="https://bktechouse.rw/">
+          <span class="underline">Interned at bktechouse: Aug 31, 23</span>
+        </Link>
+        oh wow I met so many interesting people there. Learnt alot I hope to join
+        back after my high school in July .
+      </li>
+      <li>
+        <Link href="https://github.com/brunoblaise/ldk">
+          <span class="underline">Interned at Ironji: Feb, 21</span>
+        </Link>
+        I helped implement the tracking feature of track driver by then I was using
+        nestjs and graphql (the last time it used in a project)
+      </li>
+    </ul>
+    <br />
+    <p class="text-4xl font-serif">Honors & Awards</p>
+    <ul>
+      <li>
+        <Link href="https://github.com/brunoblaise/ldk">
+          <span class="underline"> Winner of Pico-CTF in Africa: May, 23</span>
+        </Link>
+        I lead my team to achieve a remarkable feat by winning the Pico-CTF competition
+        in the high school category held in Rwanda and Africa. This worldwide competition
+        focuses on educating participants about cybersecurity, and winning it is
+        a testament to our team's exceptional skills in this field.
+      </li>
+    </ul>
+    <!-- <div>
+          <Link href="https://x.com/MudacumuraB">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              ><path
+                d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"
+              ></path></svg
+            >
+          </Link>
 
-    <Link href="https://www.linkedin.com/in/brunoblaise/">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        class="lucide lucide-linkedin hover:text-orange-400"
-        ><path
-          d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
-        ></path><rect width="4" height="12" x="2" y="9"></rect><circle
-          cx="4"
-          cy="4"
-          r="2"></circle></svg
-      >
-    </Link>
+          <Link href="https://www.linkedin.com/in/brunoblaise/">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              ><path
+                d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+              ></path><rect width="4" height="12" x="2" y="9"></rect><circle
+                cx="4"
+                cy="4"
+                r="2"></circle></svg
+            >
+          </Link>
 
-    <Link href="https://github.com/brunoblaise1">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        class="lucide lucide-github hover:text-orange-400"
-        ><path
-          d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"
-        ></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg
-      >
-    </Link>
-  </div>
-  
-</div>
+          <Link href="https://github.com/brunoblaise1">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              ><path
+                d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"
+              ></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg
+            >
+          </Link>
+        </div> -->
+  </section>
+
+  <section class="hidden md:block">
+    <div class="grid grid-cols-2 gap-2">
+      <img src="/public/bl.Jpg" class="rounded-lg w-[30rem] m-0" />
+      <img src="/public/one.JPEG" class="rounded-lg w-[20rem] m-0" />
+
+      <img src="/public/three.JPEG" class="rounded-lg w-[20rem] m-0" />
+
+      <img src="/public/man.jpg" class="rounded-lg w-[20rem] -mb-44" />
+      <img src="/public/four.JPEG" class="rounded-lg w-[20rem] m-0" />
+      <img src="/public/sk.jpg" class="rounded-lg w-[20rem] mt-44" />
+      <img src="/public/kg.Jpg" class="rounded-lg w-[30rem] -mt-48" />
+    </div>
+  </section>
+</main>

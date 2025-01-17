@@ -1,7 +1,6 @@
 ---
 import Head from "../components/Head.astro";
 import Link from "./Link.astro";
-
 ---
 
 <!doctype html>
@@ -10,30 +9,8 @@ import Link from "./Link.astro";
     <meta charset="UTF-8" />
     <Head />
   </head>
-  <body class="bg-orange-100 p-2 ">
-     <header class="border-b-2 w-full">
-   
-      <nav class="flex justify-between p-2 ">
-           <Link href="/" > <div class="hover:text-yellow-800">Home </div></Link>
-         <div class='flex gap-4'> 
-            <Link href="/blogs" class="hover:text-yellow-800"> <div class="hover:text-yellow-800">Blogs</div></Link>
-         <Link href="/" class="hover:text-yellow-800" > <div class="hover:text-yellow-800">2024(working on it)</div></Link>
-         </div>
-       
-      </nav>
-    </header>
-    <div class="mx-auto w-full prose lg:prose-xl"> 
-   
+  <body
+    class="mb-7 flex flex-col min-h-screen text-zinc-700 selection:bg-[#0827F5] selection:text-white font-normal font-sans scroll-smooth">
     <slot />
-    </div>
   </body>
 </html>
-
-<style>
-  html,
-  body {
-    margin: 0;
-    width: 100%;
-    height: 100%;
-  }
-</style>

@@ -1,6 +1,7 @@
 ---
 import Head from "../components/Head.astro";
 import Analytics from "@vercel/analytics/astro";
+import SpeedInsights from "@vercel/speed-insights/astro";
 ---
 
 <!doctype html>
@@ -13,4 +14,5 @@ import Analytics from "@vercel/analytics/astro";
     class="mb-7 flex flex-col min-h-screen text-zinc-700 selection:bg-[#0827F5] selection:text-white font-normal font-sans scroll-smooth">
     <slot />
   </body><Analytics />
+  <SpeedInsights />
 </html>

@@ -2,7 +2,7 @@
 import { getCollection, type CollectionEntry } from "astro:content";
 export const getStaticPaths = async () => {
   const blogs = await getCollection("blogs");
-  const paths = blogs.map((blog) => {
+  const paths = blogs.map((blog: { slug: any }) => {
     return {
       params: {
         slug: blog.slug,

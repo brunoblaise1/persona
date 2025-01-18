@@ -16,6 +16,6 @@ import BlogList from "../components/BlogList.astro";
       </div>
     </div>
 
-    {blogs.map((blog) => <BlogList blog={blog} />)}
+    {blogs.map((blog: unknown) => <BlogList blog={blog} />)}
   </div>
 </Layout>

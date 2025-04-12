@@ -2,10 +2,16 @@
 import Link from "../layouts/Link.astro";
 ---
 
-<main class="my-7 flex gap-0 flex-grow">
+<main class="my-7 flex gap-0 flex-grow m-2">
   <section
     class="self-center m-5 max-w-[80ch] lg:w-7/12 md:w-8/12 sm:w-9/12 w-10/12 md:self-start md:mr-20">
     <p class="text-4xl font-serif">Hi, I'm Blaise Bruno</p>
+    <div class="flex flex-row">
+          <a href="/2024" class="text-sm text-slate-800">Read Year 2024</a>
+
+          <a href="/2025" class="text-sm text-slate-800/50 mx-1 ">Year 2025</a>
+    </div>
+    <br />
     <br />
     <p>What I'm working on:</p>
     <ul class="list-disc pl-8 pt-1">
@@ -19,12 +25,13 @@ import Link from "../layouts/Link.astro";
         with some friends.
       </li>
       <li class="pb-2">
-        Solving identificaton problem in Africa
-        <a href="#" class="bg-[#0827F5] text-white p-1">Read here.</a>
+        Creating a custom keyboard
+
       </li>
-      <li class="pb-2">Learning Rust</li>
-      <li>Focusing on National Exams and applying to uni</li>
-    </ul>
+      <li>Working on <a href="https://linapp.dev" class="bg-[#0827F5] text-white p-1">
+         Linapp.dev
+        </a></li>
+          </ul>
     <li>
       I write
       <a href="/blogs" class="hover:bg-[#0827F5] hover:text-white">blogs.</a>
@@ -54,17 +61,26 @@ import Link from "../layouts/Link.astro";
       </li>
     </ul>
     <br />
-    <p>About me:</p>
+    <p class="pb-1">About me: </p>
     <section>
-      <p>I wanna be great.</p>
+      <p>I like reading books, books I find most interesting</p>
+
+      <ol class="list-decimal pl-8 pb-1"> 
+      <li>Beyond good and evil</li>
+      <li>Man searching for a meaning</li>
+      <li>Richest man in babylon</li>
+      <li>48 Laws of Power</li>
+   <li>Animal Farm</li>
+   <li>Brave new World</li>
+   <li>I have no mouth and I must scream</li>
+      </ol>
+
+
       <p class="pl-4">
-        Dreaming is free so, let me dream! Failure is not an option, I have so
-        many thing to work on I can't afford depression, anxiety all that good
-        stuff.
+        
       </p>
       <p>
-        Mostly I enjoy playing Piano, Guitar, walking before the sunrise and I
-        am competitive as hell
+        Mostly I enjoy playing Piano, Guitar, walking before the sunrise and I like to take pictures of random things, In essence I like creating something.
       </p>
     </section>
     <br />
@@ -200,36 +216,38 @@ import Link from "../layouts/Link.astro";
   </section>
 
   <section class="hidden md:block">
-    <div class="grid grid-cols-2 gap-2">
+    <div class="grid grid-cols-2 gap-2 md:grid-cols-3">
       <img
         src="https://res.cloudinary.com/dab5pkzmm/image/upload/v1737212897/bl_pk0tk4.jpg"
-        class="rounded-lg w-[30rem] m-0"
+        class="rounded-lg w-[30rem]"
       />
       <img
         src="https://res.cloudinary.com/dab5pkzmm/image/upload/v1737212895/one_wbo1ad.jpg"
-        class="rounded-lg w-[20rem] m-0"
+        class="rounded-lg w-[20rem] "
       />
       <img
         src="https://res.cloudinary.com/dab5pkzmm/image/upload/v1737213135/three_vh8dnp.jpg"
-        class="rounded-lg w-[20rem] m-0"
+        class="rounded-lg w-[20rem]"
       />
 
       <img
         src="https://res.cloudinary.com/dab5pkzmm/image/upload/v1737212895/man_kx8oqq.jpg"
-        class="rounded-lg w-[20rem] -mb-44"
+        class="rounded-lg w-[20rem] "
       />
       <img
         src="https://res.cloudinary.com/dab5pkzmm/image/upload/v1737212895/four_mzdwfi.jpg"
-        class="rounded-lg w-[20rem] m-0"
+        class="rounded-lg w-[20rem]"
       />
       <img
         src="https://res.cloudinary.com/dab5pkzmm/image/upload/v1737213243/sk_p8hc6a.jpg"
-        class="rounded-lg w-[20rem] mt-44"
+        class="rounded-lg w-[20rem]"
       />
       <img
         src="https://res.cloudinary.com/dab5pkzmm/image/upload/v1737212895/kg_hjk0ja.jpg"
-        class="rounded-lg w-[30rem] -mt-48"
+        class="rounded-lg w-[30rem] "
       />
+  <img src="https://res.cloudinary.com/dab5pkzmm/image/upload/v1744370065/cvrstlakb3u6kocymr7r.jpg"class="rounded-lg w-[20rem]" />
+  <img src="https://res.cloudinary.com/dab5pkzmm/image/upload/v1744443090/kac0ctwtfnxnb80logbo.jpg" class="rounded-lg w-[20rem]" />
     </div>
   </section>
 </main>
